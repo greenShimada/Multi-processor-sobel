@@ -2,6 +2,6 @@
 
 Applying sobel filter with multiple processors
 
-**To run: **
+**To run:**
 mpicc sobel-paralelo.c -o paralelo -lm
 mpirun -np [number of processors] ./paralelo
